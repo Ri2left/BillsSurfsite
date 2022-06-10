@@ -21,6 +21,10 @@
 
         var options = {
           colorAxis: {colors: ['yellow', 'red']}
+          haxis: {title: 'Hello',
+          titleTextStyle: {
+            color: '#FF0000'
+        }
         };
 
         var chart = new google.visualization.BubbleChart(document.getElementById('chart_div'));
@@ -29,9 +33,9 @@
         {
           title: 'Hello',
           titleTextStyle: {
-            color: '#FF0000'
+            color: '#FF0000'}
         }
-}
+
       }
     </script>
  </head>
